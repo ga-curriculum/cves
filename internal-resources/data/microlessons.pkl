@@ -2,30 +2,23 @@ import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/univer
 
 // Add microlessons here, in the order they should be delivered
 
-setup = new Template.Microlesson {
-  friendlyName = "Setup"
-  dirName = "setup"
+whatAreCVEsandWhyAreTheyImportant = new Template.Microlesson {
+  friendlyName = "What Are CVEs and Why Are They Important"
+  dirName = "what-are-cves-and-why-are-they-important"
   type = "Content"
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+theImportanceOfSoftwareUpdatesInMitigatingCVEs = new Template.Microlesson {
+  friendlyName = "The Importance of Software Updates in Mitigating CVEs"
+  dirName = "the-importance-of-software-updates-in-mitigating-cves"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
-  type = "Content"
-  videoUrl = ""
-}
-
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+understandingAndManagingTechDebt = new Template.Microlesson {
+  friendlyName = "Understanding and Managing Tech Debt"
+  dirName = "understanding-and-managing-tech-debt"
   type = "Content"
   videoUrl = ""
 }

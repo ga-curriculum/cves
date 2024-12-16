@@ -1,26 +1,21 @@
 <!-- ! Do not delete or rename this file! -->
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">CVEs</span>
 </h1>
 
-tktk Add some default course navigation content here. This landing page will be used when a student's course cannot be determined, so don't include any course-specific details.
+## About
+
+This module emphasizes the importance of addressing CVEs and managing technical debt, highlighting strategies for mitigation through timely updates.
 
 ## Content
 
 | Lesson | Est. Delivery Time | Skills |
 | ------ |:------------------:| ------ |
-| [Setup](../setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](../concepts/README.md)                    | -- | tktk Skills covered.                |
-| [tktk Microlesson Name](../microlesson-01/README.md) | -- | tktk Skills covered.                |
-| **Total content**                                    | -- |                                     |
-
-## Level Up content
-
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [tktk Microlesson Name](../microlesson-02/README.md) | -- | tktk Skills covered. |
-| **Total Level Up content**                           | -- |                      |
+| [What Are CVEs and Why Are They Important](../what-are-cves-and-why-are-they-important/README.md)                    | 5 min | Introduction to the what and why of CVEs|
+| [The Importance of Software Updates in Mitigating CVEs](../the-importance-of-software-updates-in-mitigating-cves/README.md) | 5 min | Understand why timely software updates are important                |
+| [Understanding and Managing Tech Debt](../understanding-and-managing-tech-debt/README.md) | 5 min | Understand the impact of technical debt on security                |
+| **Total content**                                   | 15 min |                                     |
 
 ## References
 

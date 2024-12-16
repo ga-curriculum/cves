@@ -1,10 +1,9 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">CVEs</span>
   <span class="subhead">References</span>
 </h1>
 
 ## Lesson references
 
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
+- [CVEs Reference on Mitre.org](https://cve.mitre.org/)
+- [About Mitre](https://www.mitre.org/who-we-are)
