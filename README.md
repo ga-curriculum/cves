@@ -29,7 +29,7 @@ This module emphasizes the importance of addressing CVEs and managing technical 
 
 ### Course landing pages
 
-- [CVEs](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/CVEs/canvas-landing-pages/cves.html)
+- [ITB - IT Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/CVEs/canvas-landing-pages/itb.html)
 - [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/CVEs/canvas-landing-pages/fallback.html)
 
 ### Resources
