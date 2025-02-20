@@ -14,7 +14,7 @@
   },
   "courses": [
     {
-      "name": "fallback",
+      "name": "itb",
       "courseAcronym": "",
       "courseFullName": "",
       "logoUrl": "",
@@ -73,7 +73,7 @@
       "isActivityTimeShown": true
     },
     {
-      "name": "cves",
+      "name": "fallback",
       "courseAcronym": "",
       "courseFullName": "",
       "logoUrl": "",

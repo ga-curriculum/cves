@@ -3,48 +3,53 @@
   <span class="subhead">What Are CVEs and Why Are They Important</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to define common Vulnerabilities and Exposures (CVEs) and explain their role in identifying security risks.
+**Learning objective:** By the end of this lesson, students will be able to define Common Vulnerabilities and Exposures (CVEs) and explain their role in identifying security risks.
 
-## Introduction
+## What are Common Vulnerabilities and Exposures (CVEs)?
 
-### Scenario: A Compromised Server
+CVEs are a catalog of thousands of publicly disclosed cybersecurity vulnerabilities maintained by [MITRE Corporation](https://www.mitre.org/who-we-are).
 
-Imagine your company's server is suddenly compromised. The IT team realized it was because of an unpatched vulnerability.
+The CVE catalog provides a standardized reference for discussing vulnerabilities. The catalog makes it easier for organizations to identify and address security risks systematically, ensuring their systems remain secure and resilient against potential threats.
 
-**How could this have been prevented?**
+You can access the catalog online at [cve.org](https://www.cve.org/).
 
-- By understanding how to use the CVE system to discuss and prioritize risks.
-- By proactively identifying and addressing the vulnerability.
+To get a brief example of a CVE, [search the CVE list for `CVE-2021-34527`](https://www.cve.org/CVERecord?id=CVE-2021-34527): This is a known Windows Print Spooler vulnerability (commonly known as **PrintNightmare**) that allows attackers to execute malicious code on an affected system.
 
-## What are CVEs?
+## Why CVEs matter
 
-CVE stands for ***Common Vulnerabilities and Exposures***. It's a catalog of publicly disclosed cybersecurity vulnerabilities maintained by [MITRE Corporation](https://www.mitre.org/who-we-are).
+CVEs act as a universal language for identifying vulnerabilities. By providing a standardized framework, CVEs ensure that organizations, researchers, and security vendors can communicate clearly and efficiently about specific security flaws, leaving no room for ambiguity.
 
-Tens of thousands of CVE records are being maintained. You can access the catalog online at [https://cve.mitre.org/](https://cve.mitre.org/).
+CVEs are more than just identifiers; they are critical tools for effective risk management. They help organizations systematically evaluate vulnerabilities within their systems, prioritize the ones that pose the most significant threat, and take proactive steps to mitigate potential damage.
 
-- CVEs provide a standardized reference for discussing common vulnerabilities.
-- They also help organizations prioritize and address risks systematically.
+Without CVEs, tracking and addressing vulnerabilities would be chaotic, exposing organizations to an ever-expanding array of cyber threats.
 
-To get a brief example of a CVE, [search the CVE list for `CVE-2021-34527`](https://www.cve.org/CVERecord?id=CVE-2021-34527): This is a known Windows Print Spooler Vulnerability (***aka "PrintNightmare"***) that allows attackers to execute malicious code on an affected system.
+### The role of CVEs in addressing risks
 
-## Why CVEs Matter
+CVEs play a crucial role in the process of identifying security risks and working to mitigate them; here's a brief outline of how security professionals use them:
 
-As we become familiar with CVEs and understand what they are, you might wonder why they matter and what makes them essential.
+- **Standardization**: CVEs offer a standardized reference for discussing and addressing vulnerabilities, ensuring consistency across different platforms and organizations.
+- **Risk assessment**: Each CVE entry includes detailed information and often a CVSS (Common Vulnerability Scoring System) score that measures severity.
+- **Prioritization**: CVEs enable organizations to prioritize their efforts by focusing on the most critical, actively exploited vulnerabilities first.
+- **Collaboration**: CVEs facilitate collaboration among security professionals, researchers, and vendors by providing a common language and framework for discussing vulnerabilities.
+- **Awareness and education**: CVEs raise awareness about potential security risks and allow security professionals to more easily educate their organizations on the importance of timely updates and patches.
+- **Proactive defense**: By staying informed about CVEs, organizations can implement proactive measures to defend against known vulnerabilities, reducing the risk of exploitation.
 
-CVEs are a critical tool used to identify and understand security risks. They provide organizations with the information needed to protect their systems and data by proactively addressing vulnerabilities before they become exploited.
+## A compromised server scenario
 
-## The Role of CVEs in Identifying Security Risks
+Imagine a server at your company is suddenly compromised. The IT team realized it was because of an unpatched vulnerability. This situation could have been prevented by doing the following:
 
-CVEs play a crucial role in the process of identifying security risks; here's a brief outline of how security professionals use them:
+- **Understanding and utilizing the Common Vulnerabilities and Exposures (CVE) system** to discuss and prioritize risks effectively.
+- **Proactively identify and address vulnerabilities** before bad actors can exploit them.
+- **Conduct regular security audits** to identify and address vulnerabilities before they can be exploited.
+- **Ensure that all employees are trained on cybersecurity** best practices and the importance of timely software updates.
+- **Utilize automated tools** to scan for vulnerabilities and apply patches promptly.
 
-- **Identify Vulnerabilities**: Security teams use CVE entries to identify weaknesses in their systems or software.
-- **Assess Risk**: Each CVE entry includes a detailed description and often a CVSS (Common Vulnerability Scoring System) score that measures severity.
-- **Prioritize Action**: High-severity CVEs, especially actively exploited ones, are prioritized for immediate action.
+## Workflow
 
-## Wrap-Up: High-Level Review
+<!-- ! tktk add a chart here with more details - use the image in the assets dir to help. -->
 
-Now that we've had a chance to discuss the what, why, and how of CVEs, let's wrap up this section by reviewing a typical workflow to conceptualize this process:
+Here is a typical workflow to help you conceptualize how organizations utilize the CVE system:
 
-1. IT identifies a vulnerability in outdated software via its CVE entry.
+1. IT identifies a vulnerability in outdated software through its CVE entry.
 2. The CVE details are used to determine the scope of the threat.
 3. A patch or workaround is implemented to reduce the risk.

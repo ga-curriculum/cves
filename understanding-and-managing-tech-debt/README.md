@@ -5,49 +5,39 @@
 
 **Learning objective:** By the end of this lesson, students will be able to discuss the importance of timely software updates and the impact of technical debt on system security.
 
-## Introduction
+## The weight of neglected systems
 
-### Scenario: The Weight of Neglected Systems
+Imagine you work at an organization that has critical systems that rely on outdated software. These systems require constant workarounds to function correctly. Multiple unpatched vulnerabilities exist, and the organization has no plan to address them.
 
-Imagine your company's system is running outdated software, requiring constant workarounds, and having multiple unpatched vulnerabilities.
+Day-to-day operations are slow and cumbersome, and the risk of a security breach is growing as more and more updates are ignored.
 
-**What is the long-term cost of not addressing these issues?**
+Long-term costs of not addressing these issues include:
 
-- Increased technical debt and greater security risk.
+- **Significant security risks**: Unpatched vulnerabilities become prime targets for cyberattacks, exposing your organization to potential breaches, data loss, and reputation damage.
+- **Escalating technical debt**: Outdated systems require more resources to maintain. They also become more challenging to integrate with modern technologies. These factors create a growing burden of inefficiency and higher future costs.
 
-## What is Tech Debt?
+## What is technical debt?
 
-Technical debt, or "tech debt," refers to the accumulated costs and risks associated with taking shortcuts in system design, development, and maintenance.
+*Technical debt* (or, more commonly, *tech debt*) is the complete cost, risks, and inefficiencies arising from shortcuts taken in system design, development, and maintenance. Like financial debt, it offers short-term convenience but can lead to long-term consequences.
 
-Some common culprits of tech debt include delayed updates, unpatched vulnerabilities, or reliance on outdated or legacy systems.
+Some common culprits of tech debt include delayed updates, unpatched vulnerabilities, or reliance on outdated or legacy systems. These decisions may seem practical when made - perhaps they avoid downtime or speed up delivery. However, they often lead to downsides, especially when future systems or processes are built on top of them.
 
 In other words, you can think of tech debt as we think of financial debt: the longer you delay repayment (fixes and updates), the more "interest" (cost and risk) you accrue.
 
-Here are some more examples of tech debt:
-
-- Postponing software updates to avoid downtime.
-- Using unsupported or outdated software versions.
-
-## Why Should You Care About Tech Debt?
+## Why should you care about tech debt?
 
 There are several reasons to be aware of tech debt and its impact on organizations.
 
-- **Increased Vulnerability**: Systems with unpatched CVEs are prime targets for cyberattacks. A great example of this was when organizations that relied on Windows XP long after support ended were highly susceptible to modern threats. ***Surprisingly, there are a number of people who still use Windows XP***.
-- **Operational Risks**: Legacy systems often require complex workarounds, which are time-consuming and can slow down incident response and recovery.
-- **Increased Costs**: Addressing vulnerabilities in obsolete systems often costs more than incremental timely updates. ***Not to mention, breaches caused by this neglect can lead to regulatory fines, legal liability, and reputational damage***.
+- **Increased vulnerability**: Systems with unpatched CVEs are prime targets for cyberattacks. A great example of this is when organizations rely on unmaintained operating systems long after support ends them has ended. This leaves them highly susceptible to modern threats.
+- **Operational risks**: Legacy systems often require complex workarounds, which are time-consuming and can slow down incident response and recovery.
+- **Increased costs**: Addressing vulnerabilities in obsolete systems often costs more than incremental timely updates. Not to mention, breaches caused by this neglect can lead to regulatory fines, legal liability, and reputation damage.
 
-## How to Manage Tech Debt
+## How to manage tech debt
 
-So far, we've focused on some worst-case scenarios when introducing the idea of tech debt. However, it's important to recognize that tech debt isn't inherently bad; in some cases, it's unavoidable, but failing to manage it can lead to increased risks and costs. That said, timely software updates and proactive maintenance are critical to keeping systems secure and resilient.
+So far, we've focused on some worst-case scenarios when introducing the idea of tech debt. However, it's essential to recognize that tech debt isn't inherently bad; in some cases, it's unavoidable, but failing to manage it can lead to increased risks and costs. That said, timely software updates and proactive maintenance are critical to keeping systems secure and resilient.
 
 Here are a few ways we can begin managing tech debt:
 
-- **Prioritize Updates and Patches**: Use CVSS scores to address high-risk vulnerabilities first.
-**Adopt a Proactive Maintenance Plan**: Schedule regular system reviews to identify and address outdated software.
-- **Automate the Process**: Automation tools can help optimize the process of addressing outdated software while reducing human error.
-
-## Wrap-Up Activity: Check Personal Devices for Pending Updates.
-
-As we wrap up this lesson, take a moment to check your personal devices for pending updates. These updates can range from complete OS updates to individual applications running on your devices.
-
-While reviewing these updates, discuss any security updates listed and the potential risks of not applying them promptly.
+- **Prioritize updates and patches**: Use CVSS scores to address high-risk vulnerabilities first.
+- **Adopt a proactive maintenance plan**: Schedule regular system reviews to identify and address outdated software.
+- **Automate the process**: Automation tools can help optimize the process of addressing outdated software while reducing human error.
