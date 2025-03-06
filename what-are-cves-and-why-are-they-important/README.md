@@ -46,10 +46,6 @@ Imagine a server at your company is suddenly compromised. The IT team realized i
 
 ## Workflow
 
-<!-- ! tktk add a chart here with more details - use the image in the assets dir to help. -->
+Below is a diagram of an example workflow for how organizations utilize the CVE system to identify and address vulnerabilities:
 
-Here is a typical workflow to help you conceptualize how organizations utilize the CVE system:
-
-1. IT identifies a vulnerability in outdated software through its CVE entry.
-2. The CVE details are used to determine the scope of the threat.
-3. A patch or workaround is implemented to reduce the risk.
+![A CVE flowchart detailing the process of identifying and addressing vulnerabilities](./assets/cve-flow-quarter.png)
